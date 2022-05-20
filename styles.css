@@ -1,0 +1,305 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+.nav-bar {
+  background-color: #333333;
+  height: 40px;
+  position: fixed;
+  width: 100%;
+}
+
+.logo {
+  float: left;
+  height: 40px;
+  width: 40px;
+  position: relative;
+  left: 750px;
+}
+
+.bar-li li a {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.bar-li li a:hover {
+  color: black;
+  overflow: hidden;
+}
+
+.bar-li li a:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 1px;
+  content: '.';
+  color: transparent;
+  background: #413F42;
+  visibility: hidden;
+  opacity: 0;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.bar-li li a:hover:after {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+  overflow: hidden;
+}
+
+.bar-li li {
+  position: relative;
+  bottom: 10px;
+  float: left;
+  font-size: 16px;
+  list-style-type: none;
+  margin: 0 10px 0 10px;
+  overflow: auto;
+}
+
+.bar-li li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.bar-li li a:hover {
+  color: black;
+}
+
+h1 {
+  font-family: 'Smooch', cursive;
+  font-size: 7rem;
+  position: relative;
+  top: 150px;
+  margin: auto;
+  margin-top: 0;
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+}
+
+.hp1 {
+  font-family: 'Smooch', cursive;
+  font-size: 2.5rem;
+  position: relative;
+  top: 100px;
+}
+
+.twohone {
+  position: relative;
+  top: 0;
+  right: 15px;
+}
+
+.twohtwo {
+  position: relative;
+  bottom: 10px;
+}
+
+.p2 {
+  margin: auto;
+  margin-bottom: 30px;
+  width: 800px;
+}
+
+.p3 {
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+/*.p1{
+  position: relative;
+  top:300px;
+  left:430px;
+  width:50%;
+}*/
+.one-container {
+  color: #FFFFFF;
+  background-image: url("https://www.wallpaperflare.com/static/785/171/615/man-guitar-musica-arte-wallpaper.jpg");
+  background-size: cover;
+  background-color: #010101;
+  text-align: center;
+  height: 750px;
+  width: 100%;
+}
+
+.two-container {
+  color: #ffffff;
+  background-color: #252529;
+  padding: 50px;
+}
+
+.three-container {
+  padding: 20px;
+}
+
+.the-movie {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.pencil {
+  margin-top: 30px;
+}
+
+.three-p {
+  width: 80%;
+  margin: auto auto 5px auto;
+}
+
+.four-container {
+  color: #FFFFFF;
+  background-image: url('D:/Web Development/myTunes Project/images/section-bg.jpeg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: black;
+  background-size: cover;
+  height: 500px;
+  padding: 20px;
+  width: auto;
+}
+
+.A-world {
+  position: relative;
+  bottom: 90px;
+  top: 90px;
+  left: 0;
+}
+
+.A-world-p {
+  position: relative;
+  top: 150px;
+}
+
+.fifth-container {
+  color: #252529;
+  height: 380px;
+  padding: 25px;
+  overflow: auto;
+  width: auto;
+}
+
+.gc {
+  font-family: 'Smooch', cursive;
+  font-size: 3rem;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+.giftcard {
+  width: 35%;
+  float: left;
+}
+
+.bottom-container {
+  background-color: #252529;
+  color: #FFFFFF;
+  columns: 30px 4;
+  line-height: 2;
+  width: auto;
+  padding: 30px 0;
+}
+
+.bottom-container li {
+  list-style-type: none;
+}
+
+.bottom-container li a:hover {
+  color: black;
+}
+
+.hr3 {
+  width: 60%;
+  margin-left: 55px;
+}
+
+hr {
+  border-top-style: solid;
+  border-top-color: #333333;
+  border-bottom-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  position: relative;
+  left: 25px;
+  text-align: right;
+  width: 50%;
+}
+
+.hr2 {
+  border-top-style: dotted;
+  border-right-style: hidden;
+  border-bottom-style: hidden;
+  border-left-style: hidden;
+  width: 55%;
+}
+
+.col1 {
+  position: relative;
+  bottom: 25px;
+}
+
+.bottom {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.copyright {
+  background-color: #333333;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  padding: 1px;
+}
+
+.btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  color: #ffffff;
+  font-size: 20px;
+  background: #d93434;
+  padding: 20px 20px 20px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #fc3c3c;
+  text-decoration: none;
+}
+
+.btn2 {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  color: #ffffff;
+  font-size: 20px;
+  background: #4234d9;
+  padding: 20px 20px 20px 20px;
+  text-decoration: none;
+}
+
+.btn2:hover {
+  background: #423cfa;
+  text-decoration: none;
+}
+
+.btn3 {
+  text-decoration: none;
+  color: black;
+}
+
+.btn3:hover {
+  color: red;
+}
